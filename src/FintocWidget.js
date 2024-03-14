@@ -16,7 +16,7 @@ function FintocWidget() {
           publicKey: process.env.REACT_APP_FINTOC_PUBLIC_KEY,
           holderType: 'business',
           product: 'movements',
-          webhookUrl: 'https://two-rocks-fall.loca.lt', // Using ngrok URL from .env
+          webhookUrl: 'https://fintoc-backend.onrender.com', // Using ngrok URL from .env
           onSuccess: (link) => {
             console.log('Success!');
             console.log(link);
