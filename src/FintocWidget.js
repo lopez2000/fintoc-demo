@@ -16,7 +16,7 @@ function FintocWidget() {
           publicKey: process.env.REACT_APP_FINTOC_PUBLIC_KEY,
           holderType: 'business',
           product: 'movements',
-          webhookUrl: 'https://0f0b-190-216-144-178.ngrok-free.app', // Using ngrok URL from .env
+          webhookUrl: 'https://8847-190-216-144-178.ngrok-free.app', // Using ngrok URL from .env
           onSuccess: (link) => {
             console.log('Success!');
             console.log(link);
